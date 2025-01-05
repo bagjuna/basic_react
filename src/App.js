@@ -12,8 +12,7 @@ function App() {
                 setValue(value + 1);
                 console.log('Increase value', value);
             }}
-            >
-                Increase value
+            >Increase value
             </button>
             <button onClick={()=>{
                 setValue(0);
